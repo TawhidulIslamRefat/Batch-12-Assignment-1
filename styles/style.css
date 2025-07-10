@@ -14,3 +14,59 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* shered style */
+
+.primary-color{
+    color: rgba(78, 71, 255, 1);
+}
+
+/* header */
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* navbar style */
+nav{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.btn-primary{
+    background-color:rgba(78, 71, 255, 1) ;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* banner section style */
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:200px;
+    padding-top: 200px;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+   
+}
